@@ -42,7 +42,7 @@ Copy-Item config.example.json config.json
 python scripts/paper_radar.py --days 7 --no-download
 ```
 
-首次运行前，可在本地 `config.json` 中调整检索主题、JIF 门槛和输出目录。该文件已被 Git 忽略。
+首次运行前，可在本地 `config.json` 中调整检索主题、JIF 门槛和输出目录。
 
 ## 输出与参数
 
@@ -55,4 +55,4 @@ python scripts/paper_radar.py --days 7 --no-download
 - `--no-save`：生成报告但不更新去重状态。
 - `--no-download`：跳过 PDF 下载。
 
-运行数据、PDF、本地配置和 API 凭据不应提交到公开仓库。
+
