@@ -1,0 +1,177 @@
+{
+  "_说明": "paper-radar 配置。只收录当前 JCR 2026 发布版（2025 数据）影响因子不低于 8.0 的目标期刊；期刊名 patterns 用于匹配正式刊名、arXiv 录用信息与 DOI。",
+  "min_impact_factor": 8.0,
+  "impact_factor_release_year": 2026,
+  "impact_factor_data_year": 2025,
+  "reports_dir": "reports",
+  "state_file": "state/seen.json",
+  "categories": [
+    "cs.CV",
+    "eess.IV"
+  ],
+  "topics": [
+    {
+      "name": "小目标检测",
+      "phrases": [
+        "small object detection",
+        "tiny object detection",
+        "small target detection",
+        "tiny target detection"
+      ]
+    },
+    {
+      "name": "航拍/遥感目标检测",
+      "phrases": [
+        "aerial object detection",
+        "UAV object detection",
+        "drone object detection",
+        "remote sensing object detection",
+        "object detection in remote sensing images",
+        "object detection in aerial images",
+        "remote sensing detection"
+      ]
+    },
+    {
+      "name": "红外/多光谱小目标",
+      "phrases": [
+        "infrared small target",
+        "infrared dim target",
+        "hyperspectral small target"
+      ]
+    }
+  ],
+  "journals": [
+    {
+      "name": "TPAMI",
+      "impact_factor": 20.4,
+      "patterns": [
+        "TPAMI",
+        "Pattern Analysis and Machine Intelligence",
+        "Pattern Anal. Mach. Intell"
+      ]
+    },
+    {
+      "name": "IJCV",
+      "impact_factor": 10.3,
+      "patterns": [
+        "IJCV",
+        "International Journal of Computer Vision"
+      ]
+    },
+    {
+      "name": "TIP",
+      "impact_factor": 15.3,
+      "patterns": [
+        "\\bTIP\\b",
+        "IEEE Transactions on Image Processing",
+        "IEEE Trans. Image Process"
+      ]
+    },
+    {
+      "name": "TNNLS",
+      "impact_factor": 9.7,
+      "patterns": [
+        "TNNLS",
+        "IEEE Transactions on Neural Networks and Learning Systems",
+        "IEEE Trans. Neural Netw. Learn. Syst"
+      ]
+    },
+    {
+      "name": "Pattern Recognition",
+      "impact_factor": 7.6,
+      "patterns": [
+        "Pattern Recognition(?! Letters)",
+        "Pattern Recognit(?!\\.? Lett)"
+      ]
+    },
+    {
+      "name": "Information Fusion",
+      "impact_factor": 17.4,
+      "patterns": [
+        "Information Fusion",
+        "Inf. Fusion"
+      ]
+    },
+    {
+      "name": "TGRS",
+      "impact_factor": 9.4,
+      "patterns": [
+        "TGRS",
+        "IEEE Transactions on Geoscience and Remote Sensing",
+        "IEEE Trans. Geosci. Remote Sens"
+      ]
+    },
+    {
+      "name": "ISPRS JPRS",
+      "impact_factor": 12.9,
+      "patterns": [
+        "ISPRS Journal",
+        "ISPRS J Photogramm"
+      ]
+    },
+    {
+      "name": "Remote Sensing of Environment",
+      "impact_factor": 12.3,
+      "patterns": [
+        "Remote Sensing of Environment",
+        "Remote Sens. Environ"
+      ]
+    },
+    {
+      "name": "International Journal of Applied Earth Observation and Geoinformation",
+      "impact_factor": 8.2,
+      "patterns": [
+        "International Journal of Applied Earth Observation and Geoinformation",
+        "Int. J. Appl. Earth Obs. Geoinf."
+      ]
+    },
+    {
+      "name": "Journal of Remote Sensing",
+      "impact_factor": 11.0,
+      "patterns": [
+        "Journal of Remote Sensing",
+        "J. Remote Sens."
+      ]
+    },
+    {
+      "name": "TCSVT",
+      "impact_factor": 10.8,
+      "patterns": [
+        "TCSVT",
+        "IEEE Transactions on Circuits and Systems for Video Technology",
+        "IEEE Trans. Circuits Syst. Video Technol"
+      ]
+    },
+    {
+      "name": "TMM",
+      "impact_factor": 9.9,
+      "patterns": [
+        "\\bTMM\\b",
+        "IEEE Transactions on Multimedia",
+        "IEEE Trans. Multimed"
+      ]
+    },
+    {
+      "name": "TCYB",
+      "impact_factor": 11.3,
+      "patterns": [
+        "\\bTCYB\\b",
+        "IEEE Transactions on Cybernetics",
+        "IEEE Trans. Cybern"
+      ]
+    },
+    {
+      "name": "Expert Systems with Applications",
+      "impact_factor": 7.5,
+      "patterns": [
+        "Expert Systems with Applications",
+        "Expert Syst. Appl"
+      ]
+    }
+  ],
+  "conferences": [],
+  "days_window": 7,
+  "max_per_query": 60,
+  "external_max_per_query": 20,
+  "download_dir": "data/pdfs"
+}

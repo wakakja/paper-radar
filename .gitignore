@@ -1,0 +1,14 @@
+# Local runtime configuration
+/config.json
+/state/
+/reports/
+/data/pdfs/
+
+# Downloaded papers and local credentials
+*.pdf
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
